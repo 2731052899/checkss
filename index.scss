@@ -1,0 +1,39 @@
+@import "base";
+@import "mixin";
+.chess{
+  width: 2 *$r * $sum;
+  height: 2 * $r * $sum;
+  @include centerMiddle;
+  background: bisque;
+  transform: translate(1);
+  >row{
+    position: absolute;
+    left: $r;
+    width: 2 * $r * ($sum - 1);
+    height: 1px;
+    background: #000;
+  }
+  @for $i from 1 through $sum{
+    >row:nth-child(#{$i}){
+
+      top: (2 * $i - 1 ) * $r;
+      transition: top 1ms ;
+      -webkit-transition: top 0.5s
+    }
+  }
+    >.col{
+      position: absolute;
+      top: $r;
+      height: 2 * $r * ($sum - 1);
+      width: 1px;
+      background: #000;
+    }
+    @for $i from 1 through $sum{
+      >.col:nth-of-type(#{$i}){
+      left: (2 * $i - 1 ) * $r;
+        transition: left 1ms ;
+        -webkit-transition: left 0.5s
+      }
+}
+
+}

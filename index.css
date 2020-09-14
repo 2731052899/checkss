@@ -1,0 +1,228 @@
+.chess {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background: bisque;
+  transform: translate(1);
+}
+.chess > row {
+  position: absolute;
+  left: 10px;
+  width: 380px;
+  height: 1px;
+  background: #000;
+}
+.chess > row:nth-child(1) {
+  top: 10px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(2) {
+  top: 30px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(3) {
+  top: 50px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(4) {
+  top: 70px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(5) {
+  top: 90px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(6) {
+  top: 110px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(7) {
+  top: 130px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(8) {
+  top: 150px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(9) {
+  top: 170px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(10) {
+  top: 190px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(11) {
+  top: 210px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(12) {
+  top: 230px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(13) {
+  top: 250px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(14) {
+  top: 270px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(15) {
+  top: 290px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(16) {
+  top: 310px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(17) {
+  top: 330px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(18) {
+  top: 350px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(19) {
+  top: 370px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > row:nth-child(20) {
+  top: 390px;
+  transition: top 1ms;
+  -webkit-transition: top 0.5s;
+}
+.chess > .col {
+  position: absolute;
+  top: 10px;
+  height: 380px;
+  width: 1px;
+  background: #000;
+}
+.chess > .col:nth-of-type(1) {
+  left: 10px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(2) {
+  left: 30px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(3) {
+  left: 50px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(4) {
+  left: 70px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(5) {
+  left: 90px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(6) {
+  left: 110px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(7) {
+  left: 130px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(8) {
+  left: 150px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(9) {
+  left: 170px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(10) {
+  left: 190px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(11) {
+  left: 210px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(12) {
+  left: 230px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(13) {
+  left: 250px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(14) {
+  left: 270px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(15) {
+  left: 290px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(16) {
+  left: 310px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(17) {
+  left: 330px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(18) {
+  left: 350px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(19) {
+  left: 370px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+.chess > .col:nth-of-type(20) {
+  left: 390px;
+  transition: left 1ms;
+  -webkit-transition: left 0.5s;
+}
+
+/*# sourceMappingURL=index.css.map */
